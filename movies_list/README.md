@@ -1,3 +1,3 @@
 # movies_list
 
-Movies List
+Sample Movies List with flutter
