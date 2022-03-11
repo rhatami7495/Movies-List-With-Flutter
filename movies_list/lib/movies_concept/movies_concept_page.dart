@@ -200,7 +200,7 @@ class _MoviesConceptPageState extends State<MoviesConceptPage> {
                   'SHOW MOVIE',
                   style: TextStyle(color: Colors.white),
                 ),
-                onPressed: () => _launchURL("https://play.google.com/store/movies/details/PAW_Patrol_The_Movie?id=aEQFJn3_0Ww.P")),
+                onPressed: () => _launchURL(movies[pageController.initialPage].link.toString())),
           ),
           const Positioned(
             top: 30,
